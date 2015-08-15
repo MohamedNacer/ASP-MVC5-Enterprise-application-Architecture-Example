@@ -1,12 +1,17 @@
 # KiksApp
 Just a simple C# web app built using Onion architecture, MVC, Web API, AngularJS, Entity Framework, Autofac, Automapper
 
+<br/>
 
+##### Before you start with the project please do the following steps :
 
-##### Before starting with the project please do the following steps :
+- Change the connection string in the web.config in the KiksApp.Web project and app.config in the KiksApp.Data project.
 
-- Change the connection strings in the web.config in the KiksApp.Web project and app.config in the KiksApp.Data project.
+- Rebuild, then run the project
 
-- Open package manager console, set the project as KiksApp.Data and run ``` Update-Database ``` for the migration.
+<br/>
+Lastly, you can now login : 
 
-- Lastly, register as a user then you can add your contacts.
+**Username :** test@test.com
+
+**Password :** Admin@123
