@@ -13,7 +13,7 @@ namespace KiksApp.Data.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201508120354483_BigBang"; }
+            get { return "201508150543025_BigBang"; }
         }
         
         string IMigrationMetadata.Source

@@ -1,27 +1,18 @@
 namespace KiksApp.Data.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<KiksApp.Data.KiksAppDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<KiksAppDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "KiksAppDbContext";
         }
 
-        protected override void Seed(KiksApp.Data.KiksAppDbContext context)
+        protected override void Seed(KiksAppDbContext context)
         {
-            try
-            {
-
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-
+            base.Seed(context);
         }
     }
 }

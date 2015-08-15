@@ -87,9 +87,10 @@
     <Reference Include="System.Transactions" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201508120354483_BigBang.cs" />
-    <Compile Include="Migrations\201508120354483_BigBang.Designer.cs">
-      <DependentUpon>201508120354483_BigBang.cs</DependentUpon>
+    <Compile Include="BigBangInitializer.cs" />
+    <Compile Include="Migrations\201508150543025_BigBang.cs" />
+    <Compile Include="Migrations\201508150543025_BigBang.Designer.cs">
+      <DependentUpon>201508150543025_BigBang.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
@@ -113,8 +114,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201508120354483_BigBang.resx">
-      <DependentUpon>201508120354483_BigBang.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201508150543025_BigBang.resx">
+      <DependentUpon>201508150543025_BigBang.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

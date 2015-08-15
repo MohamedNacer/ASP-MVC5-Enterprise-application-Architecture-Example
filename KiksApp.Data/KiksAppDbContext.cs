@@ -41,6 +41,7 @@ namespace KiksApp.Data
             {
                 if (!_databaseInitialized)
                 {
+                    Database.SetInitializer(new BigBangInitializer());
                     _databaseInitialized = true;
                 }
             }
